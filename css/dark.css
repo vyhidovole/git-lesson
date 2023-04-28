@@ -1,0 +1,51 @@
+:root {
+  --body-color: #292929;
+  /* общий фон */
+
+  --title-color: #ffffff;
+  /* цвет заголовков */
+  --subtitle-color: #B4BBC5;
+  /* цвет подзаголовков */
+
+  --nav-link-color: #ffffff;
+  /* цвет ссылок в навигации */
+
+  --accent-color: #BB86FC;
+  /* основной цвет тем */
+
+  --bg-hover: rgba(255, 255, 255, 0.12);
+
+}
+
+
+/* btn-primary */
+.btn-primary {
+  --button-bg-color: #BB86FC;
+  --button-text-color: #000000;
+}
+
+
+/* forms */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea {
+  --input-bg-color: #F6F6F6;
+  --input-border-color: #D2D2D2;
+}
+
+/* footer */
+footer{
+  background-color: #292929;
+}
+.title-footer {
+  --footer-title-color: #ffffff;
+}
+
+.support,
+.globe-flex,
+.currency,
+.nav-link-footer,.language-details,
+.social-media {
+  --footer-subtitle-color: #B4BBC5;
+}
